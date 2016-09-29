@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Backstage</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+        <style>
+        .bar {
+          fill: steelblue;
+        }
+        .bar:hover {
+          fill: brown;
+        }
+        .axis--x path {
+          display: none;
+        }
+        .chart div {
+         font: 15px sans-serif;
+         background-color: steelblue;
+         text-align: right;
+         padding: 3px;
+         margin: 1px;
+         color: white;
+       }    
+        .title {
+          font: 50px sans-serif;
+          text-align: center;
+          padding-bottom: 10px
+        } 
+
+        .money{
+            align-items: 
+        }
+        .wrapper {
+        text-align: center;
+        }
+
+        </style>
+
+
+</head>
+<body>
+
+<div class="title"> The Box Office this Week </div>
+<div class="wrapper">
+    <input name="money" 
+           type="button" 
+           value="Top Grossing" 
+           onclick="topGross()" />
+    <input name="rating" 
+           type="button" 
+           value="Top Rated" 
+           onclick="topRating()" />
+</div>
+
+<div class="chart"></div>
+
+
+<!-- <svg width="960" height="500"></svg> -->
+
+    <script>
+   
+        var json = { 
+            "results": [
+                {"id": 1, "title": "The Magnificent Seven","rating": .62, "gross":34.7},
+                {"id": 2, "title": "Storks","rating": .63, "gross":21.3},
+                {"id": 3, "title": "Sully","rating": .82, "gross":13.5},
+                {"id": 4, "title": "Bridget Jones's Baby","rating": .77, "gross": 4.7},
+                {"id": 5, "title": "Snowden","rating": .63, "gross":4.1},
+                {"id": 6, "title": "Blair Witch","rating": .36, "gross":4.1},
+                {"id": 7, "title": "Don't Breathe","rating": .88, "gross":3.8},
+                {"id": 8, "title": "Suicide Squad","rating": .26, "gross":3.1},
+                {"id": 9, "title": "When the Bough Breaks","rating": .06, "gross":2.5},
+                {"id": 10, "title": "Kubo and Two String","rating": .97, "gross":1.1}
+            ]}
+        // d3.json(json, function(json){
+           
+        // var datta= ("./data/mockScores.json")
+        //     .mimeType("application/json")
+        //     .response(function(xhr) { return JSON.parse(xhr.responseText); })
+        //     .get(function(error,json){
+            console.log(json);
+            var data = json.results
+            console.log(data);
+            // data.sort(function(a,b){ return b.rating-a.rating});
+            //     var p = d3.select(".chart")
+            //       .selectAll("div")
+            //       .data(data);
+
+
+            //    var x = d3.scaleLinear()
+            //        .domain([0,1])
+            //        .range([200,1300]);
+
+
+            //    p.enter().append("div")
+            //       .style("width", function(d) { return x(d.rating) + "px"})
+            //       .style("margin-top", "5px")
+            //       .text(function(d){ return d.title + " - " + d.rating*100 + "% positive";})
+            //       .style("height", "40px")
+
+    function topGross() {
+        console.log("hello")
+                data.sort(function(a,b){ return b.gross-a.gross});
+                var p = d3.select(".chart")
+                  .selectAll("div")
+                  .data(data);
+
+                var x = d3.scaleLinear()
+                   .domain([0,1])
+                   .range([200,1300]);
+
+                p.enter().append("div")
+                  .style("width", function(d) { return x(d.gross/40) + "px"})
+                  .style("margin-top", "5px")
+                  .text(function(d){ return d.title + " - $" + d.gross;})
+                  .style("height", "40px")
+            console.log("bye")
+
+            }
+    function topRating() {
+            data.sort(function(a,b){ return b.rating-a.rating});
+                var p = d3.select(".chart")
+                  .selectAll("div")
+                  .data(data);
+
+
+               var x = d3.scaleLinear()
+                   .domain([0,1])
+                   .range([200,1300]);
+
+
+               p.enter().append("div")
+                  .style("width", function(d) { return x(d.rating) + "px"})
+                  .style("margin-top", "5px")
+                  .text(function(d){ return d.title + " - " + d.rating*100 + "% positive";})
+                  .style("height", "40px")
+                }
+
+        // });
+
+            // });
+    </script>
+
+
+
+</body>
+</html>
