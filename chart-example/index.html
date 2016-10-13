@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Debate Analysis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS inside CSS folder -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="background: OldLace">
+    <div class="container">
+      <div class="col-md-13"">
+        <h1>Debate Analysis</h1>          
+      </div>
+      <!-- ROW 1-->
+      <div class="row">  
+        <!-- START BAR CHART SECTION -->  
+        <div class="col-md-12 col-centered" id="customChartHolder">
+          <h4>Amount of Words per Candidate in each debate</h4>
+          <canvas id="barChart1"></canvas>
+          <!-- END BAR CHART SECTION --> 
+        </div>      
+      </div> 
+      <br>
+    <!-- END ROW 1 -->
+    <!-- ROW 2 -->
+      <div class="row">
+        <!-- START LINE CHART SECTION -->
+        <div class="col-md-6 section-holder">
+          <h4>Clinton's most repeated words in the first Debate</h4>
+          <canvas id="barChart2"></canvas>
+        </div>
+        <!-- END LINE CHART SECTION -->
+
+      
+        <!-- START LINE CHART SECTION -->
+        <div class="col-md-6 section-holder">
+          <h4>Trump's most repeated words in the first Debate</h4>
+          <canvas id="barChart3"></canvas>
+        </div>
+        <!-- END LINE CHART SECTION -->
+      </div>
+      <!-- END Row 2 -->
+    <!-- ROW 4 -->
+      <div class="row">
+        <!-- START LINE CHART SECTION -->
+        <div class="col-md-6" id="customChartHolder">
+          <h4>Clinton's most repeated words in the second Debate</h4>
+          <canvas id="barChart4"></canvas>
+        </div>
+        <!-- END LINE CHART SECTION -->
+
+        <!-- START LINE CHART SECTION -->
+        <div class="col-md-6" id="customChartHolder">
+          <h4>Trump's most repeated words in the first Debate</h4>
+          <canvas id="barChart5"></canvas>
+        </div>
+        <!-- END LINE CHART SECTION -->
+      </div>
+      <!-- END Row 5 -->
+    </div> 
+  </body>
+
+    <!-- JQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- CHART JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+</html>

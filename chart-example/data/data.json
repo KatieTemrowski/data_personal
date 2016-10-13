@@ -1,0 +1,474 @@
+{
+	"overallWordsDebateOne": {
+		"trump": 8419,
+		"hillary": 6330
+	},
+	"overallWordsDebateTwo": {
+		"trump": 6955,
+		"hillary": 5903
+	},
+	"HillDebateOneWords": [
+		{
+			"word":"PEOPLE",
+			"used": 34,
+			"word2": "PEOPLE",
+			"used2":46
+		},
+		{
+			"word": "DONALD",
+			"used": 29,	
+			"word2": "DONALD",
+			"used2":43
+		},
+		{
+			"word": "TAX",
+			"used": 16,	
+			"word2": "COUNTRY",
+			"used2": 27
+		},
+		{
+			"word": "BUSINESS",
+			"used": 16,
+			"word2": "PRESIDENT",
+			"used2": 23		
+		},
+		{
+			"word": "COUNTRY",
+			"used": 16,
+			"word2": "INSURANCE",
+			"used2": 16	
+
+		},
+		{
+			"word": "JOBS",
+			"used": 16,
+			"word2": "CHILDREN",
+			"used2": 16		
+		},
+		{
+			"word": "WORK",
+			"used": 14,
+			"word2": "FIRST",
+			"used2": 14			
+		},
+		{
+			"word": "ECONOMY",
+			"used": 13,	
+			"word2": "WOMEN",
+			"used2": 13		
+		},
+		{
+			"word": "AMERICAN",
+			"used": 13,
+			"word2": "WORK",
+			"used2": 13		
+		},
+		{
+			"word": "NUCLEAR",
+			"used": 11,	
+			"word2": "AMERICA",
+			"used2": 12		
+		},
+		{
+			"word": "POLICE",
+			"used": 11,	
+			"word2": "HEALTH",
+			"used2": 12		
+		},
+		{
+			"word": "FACT",
+			"used": 10,	
+			"word2": "COURT",
+			"used2": 12	
+		},
+		{
+			"word": "COMMUNITIES",
+			"used": 10,
+			"word2": "SUPREME",
+			"used2": 12			
+		},
+		{
+			"word": "DOWN",
+			"used": 10,	
+			"word2": "CARE",
+			"used2": 11	
+		},
+		{
+			"word": "NO",
+			"used": 10,	
+			"word2": "NEVER",
+			"used2": 11		
+		},
+		{
+			"word": "MIDDLE",
+			"used": 9,	
+			"word2": "YEARS",
+			"used2": 11			
+		},
+		{
+			"word": "IRAN",
+			"used": 9,	
+			"word2": "GREAT",
+			"used2": 10			
+		},
+		{
+			"word": "FIRST",
+			"used": 9,	
+			"word2": "TRUMP",
+			"used2": 10				
+		},
+		{
+			"word": "WORLD",
+			"used": 9,	
+			"word2": "QUESTION",
+			"used2": 10				
+		}, 
+		{
+			"word": "MILLION",
+			"used": 9,	
+			"word2": "CAMPAIGN",
+			"used2": 9			
+		},
+		{
+			"word": "DEBT",
+			"used": 9,	
+			"word2": "AMERICAN",
+			"used2": 9				
+		},
+		{
+			"word": "DEAL",
+			"used": 9,	
+			"word2": "RIGHT",
+			"used2": 9				
+		},
+		{
+			"word": "KIND",
+			"used": 9,	
+			"word2": "MILLION",
+			"used2": 9			
+		},
+				{
+			"word": "INFORMATION",
+			"used": 9,	
+			"word2": "NO",
+			"used2": 9			
+		},
+		{
+			"word": "FIVE",
+			"used": 8,	
+			"word2": "TAX",
+			"used2": 8				
+		}
+
+	],	
+		"HillDebateTwoWords": [
+		{
+			"word":"PEOPLE",
+			"used": 46
+		},
+		{
+			"word": "DONALD",
+			"used": 33		
+		},
+		{
+			"word": "COUNTRY",
+			"used": 27		
+		},
+		{
+			"word": "PRESIDENT",
+			"used": 23
+		},
+		{
+			"word": "INSURANCE",
+			"used": 16		
+		},
+		{
+			"word": "CHILDREN",
+			"used": 16		
+		},
+		{
+			"word": "FIRST",
+			"used": 14		
+		},
+		{
+			"word": "WOMEN",
+			"used": 13		
+		},
+		{
+			"word": "WORK",
+			"used": 13		
+		},
+		{
+			"word": "AMERICA",
+			"used": 12	
+		},
+		{
+			"word": "HEALTH",
+			"used": 12	
+		},
+		{
+			"word": "COURT",
+			"used": 12	
+		},
+		{
+			"word": "SUPREME",
+			"used": 12		
+		},
+		{
+			"word": "CARE",
+			"used": 11		
+		},
+		{
+			"word": "NEVER",
+			"used": 11	
+		},
+		{
+			"word": "YEARS",
+			"used": 11	
+		},
+		{
+			"word": "GREAT",
+			"used": 10	
+		},
+		{
+			"word": "TRUMP",
+			"used": 10		
+		},
+		{
+			"word": "QUESTION",
+			"used": 10		
+		}, 
+		{
+			"word": "CAMPAIGN",
+			"used": 9	
+		},
+		{
+			"word": "AMERICAN",
+			"used": 9		
+		},
+		{
+			"word": "RIGHT",
+			"used": 9		
+		},
+		{
+			"word": "MILLION",
+			"used": 9	
+		},
+				{
+			"word": "NO",
+			"used": 9		
+		},
+		{
+			"word": "TAX",
+			"used": 8		
+		}
+
+	],	
+	"TrumpDebateOneWords": [
+		{
+			"word":"COUNTRY",
+			"used": 53
+		},
+		{
+			"word": "PEOPLE",
+			"used": 37		
+		},
+		{
+			"word": "SECRETARY",
+			"used": 27		
+		},
+		{
+			"word": "YEARS",
+			"used": 24		
+		},
+		{
+			"word": "NO",
+			"used": 23		
+		},
+		{
+			"word": "CLINTON",
+			"used": 22	
+		},
+		{
+			"word": "COMPANIES",
+			"used": 20		
+		},
+		{
+			"word": "DOLLARS",
+			"used": 20		
+		},
+		{
+			"word": "JOBS",
+			"used": 19	
+		},
+		{
+			"word": "MONEY",
+			"used": 16		
+		},
+		{
+			"word": "GREAT",
+			"used": 16		
+		},
+		{
+			"word": "AGAINST",
+			"used": 16	
+		},
+		{
+			"word": "LEAVING",
+			"used": 16		
+		},
+		{
+			"word": "TAX",
+			"used": 15	
+		},
+		{
+			"word": "WAR",
+			"used": 14
+		},
+		{
+			"word": "AGREE",
+			"used": 14		
+		},
+		{
+			"word": "WORLD",
+			"used": 14	
+		},
+		{
+			"word": "HUNDRED",
+			"used": 14
+		},
+		{
+			"word": "DEAL",
+			"used": 14	
+		},
+		{
+			"word": "ISIS",
+			"used": 14		
+		},
+		{
+			"word": "FOUR",
+			"used": 13	
+		},
+		{
+			"word": "BELIEVE",
+			"used": 13
+		},
+		{
+			"word": "LESTER",
+			"used": 11		
+		},
+		{
+			"word": "TREMENDOUS",
+			"used": 11	
+		}, 
+		{
+			"word": "OBAMA",
+			"used": 11		
+		}
+
+
+	],
+		"TrumpDebateTwoWords": [
+		{
+			"word":"PEOPLE",
+			"used": 50
+		},
+		{
+			"word": "COUNTRY",
+			"used": 33	
+		},
+		{
+			"word": "HILLARY",
+			"used": 27		
+		},
+		{
+			"word": "GREAT",
+			"used": 21		
+		},
+		{
+			"word": "ISIS",
+			"used": 18	
+		},
+		{
+			"word": "YEARS",
+			"used": 17		
+		},
+		{
+			"word": "NO",
+			"used": 17		
+		},
+		{
+			"word": "RUSSIA",
+			"used": 17		
+		},
+		{
+			"word": "MONEY",
+			"used": 16		
+		},
+		{
+			"word": "TAXES",
+			"used": 16	
+		},
+		{
+			"word": "OBAMA",
+			"used": 16		
+		},
+		{
+			"word": "CLINTON",
+			"used": 16	
+		},
+		{
+			"word": "PRESIDENT",
+			"used": 14	
+		},
+		{
+			"word": "STATES",
+			"used": 14	
+		},
+		{
+			"word": "DISASTER",
+			"used": 13		
+		},
+		{
+			"word": "NOTHING",
+			"used": 12		
+		},
+		{
+			"word": "UNITED",
+			"used": 12		
+		},
+		{
+			"word": "CITIES",
+			"used": 11		
+		},
+		{
+			"word": "INNER",
+			"used": 11		
+		}, 
+		{
+			"word": "EMAILS",
+			"used": 10		
+		},
+		{
+			"word": "WORDS",
+			"used": 9		
+		},
+		{
+			"word": "ENERGY",
+			"used": 9		
+		},
+		{
+			"word": "TALKS",
+			"used": 9	
+		},
+				{
+			"word": "COMPANIES",
+			"used": 9		
+		},
+		{
+			"word": "WOMEN",
+			"used": 9		
+		}
+	]
+
+}
